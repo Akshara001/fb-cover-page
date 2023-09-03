@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fb.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+              <a class="logo-text" href="index.html">facebook</a>
+            </div>
+            <div class="login">
+                <form>
+                 <table class="login-conntrols">
+                    <tr>
+                        <td><label class="login-label"> Email or Mobile </label></td>
+                        <td><label class="login-label"> Password</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input class="sub-btn" type="submit" value="Log In"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a class="forgotten" href="forgotten.html"> Forgotten account?</a></td>
+                    </tr>
+                 </table>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="main-body">
+        <div class="left-section">
+            <p class="para">Facebook helps you connect and share with the <br> people in your life.</p>
+            <img class="image" src="fb.jpg" alt="" >
+        </div>
+        <div class="right-section">
+            <h1>Create an account</h1>
+            <p>It's quick and easy.</p>
+            <form class="signup-field" action="" id="signup-form">
+                <input name="fname" type="text" placeholder="First Name" id="firstname" style="
+                width: 40%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                ">
+                <input name="sname" type="text" placeholder="Surname" id="surname" style="
+                width: 40%;
+                padding: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px; 
+                margin-top: 5px;
+                margin-bottom:5px;
+                ">
+                <input name="emailAddress" type="text" placeholder="Email address" style="
+                height: 29px;
+                width: 234px;
+                border: radius 3px;
+                margin-bottom:5px;
+                margin-right: 2px;" ><br>
+                <input name="emailAddress" type="text" placeholder="Email address" style="
+                height: 29px;
+                width: 234px;
+                margin-bottom:5px;
+                border: radius 3px; " ><br>
+                <input name="password" type="password" placeholder="New password"style="
+                height: 29px;
+                width: 234px;
+                margin-bottom:5px;
+                border: radius 3px; " ><br>
+                <p>Birthday</p>
+                <select name="day">
+                    <option value="">Day</option>
+                    <option value="1">01</option>
+                    <option value="2">02</option>
+                </select>
+                <select name="month">
+                    <option>Month</option>
+                    <option>Jan</option>
+                    <option>Feb</option>
+                </select>
+                <select name="year">
+                    <option>Year</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                </select>
+                <p>Gender</p>
+                <input name="gender" type="radio">Female <input name="gender" type="radio">Male <input type="radio">Custom<br>
+                <input style=" 
+                    align-items: center;
+                    margin-top: 20px;
+                    margin-left: 7px;
+                    padding: 7px;
+                    width: 210px;
+                    background: limegreen;" class="sub-btnn" type="submit" value="Sign Up"></li>
+            </form>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>
